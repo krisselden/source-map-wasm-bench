@@ -1,0 +1,12 @@
+{
+  "name": "source-map-wasm-bench",
+  "version": "1.0.0",
+  "description": "Test wasm evented sourcemap parse",
+  "main": "index.js",
+  "author": "Kris Selden",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.52.0",
+    "typescript": "^2.6.2"
+  }
+}
