@@ -14,7 +14,7 @@ make
 |--------------|----------------|-------------------------------------------------------------------------------|
 | LLVM_BIN     | ~/llvm/bin     | path to bin of llvm built with LLVM_EXPERIMENTAL_TARGETS_TO_BUILD=WebAssembly |
 | BINARYEN_BIN | ~/binaryen/bin | path to binaryen tools                                                        |
-|              |                |                                                                               |
+
 ## Running Command Line Bench
 
 ### Running in d8
