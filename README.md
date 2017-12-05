@@ -1,6 +1,10 @@
 WebAssembly Source Map Decoder Bench
 ====================================
 
+Benchmark comparable WASM vs JS code stressing import calling into JS from WASM.
+
+Runs in d8, node, and the browser.
+
 ## Building
 
 Requires yarn, binaryen and llvm with the expiremental web assembly target.
