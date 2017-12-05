@@ -1,6 +1,6 @@
-load('out/decode.js');
+load('out/bench.js');
 
-SM.run({
+bench.run({
   read(file) {
     return Promise.resolve(read(file));
   },

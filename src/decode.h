@@ -4,8 +4,6 @@ typedef struct Reader {
   int length;
 } Reader;
 
-int decodeVLQ(Reader *reader);
-
 void decode(Reader *reader);
 
 extern void emitNewline();

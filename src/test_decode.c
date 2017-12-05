@@ -29,7 +29,6 @@ int main(int argc, char *argv[]) {
   reader.pos = 0;
   reader.bytes = (const unsigned char *)str;
   reader.length = strlen(str);
-  printf("decodeVLQ(\"%s\") -> %d\n", str, decodeVLQ(&reader));
 
   const char * mappings = "uLAOA,SAASA,GAAcC,EAAMC,EAAIC,GACjC,OAAUF;;GACV,IAAS,SAAT,MAA0B,IAAIG,GAAOF,EAAIC,EAAzC,KACS,cAAT,MAA+B";
   reader.pos = 0;

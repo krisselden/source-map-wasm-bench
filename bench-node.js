@@ -1,12 +1,10 @@
 const fs = require('fs');
-const SM = require('./out/decode');
+const bench = require('./out/bench');
 
-console.log(process.argv);
+const argsIndex = process.argv.indexOf('--');
+const args = process.argv.slice(argsIndex + 1);
 
-let argsIndex = process.argv.indexOf('--');
-let args = process.argv.slice(argsIndex + 1);
-
-SM.run({
+bench.run({
   read(file) {
     return Promise.resolve(fs.readFileSync(file, "utf8"));
   },
