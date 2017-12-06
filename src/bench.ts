@@ -58,7 +58,8 @@ class WasmDecoder implements IDecoder {
     this._writeString(strPtr, mappings);
   }
 
-  private _ensureMem(needed: number) {
+  private _ensureMem(want: number) {
+    const needed = want - this._memory.buffer.byteLength;
     if (needed > 0) {
       const pages = Math.ceil(needed / 65536);
       this._memory.grow(pages);
