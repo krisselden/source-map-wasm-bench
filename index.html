@@ -1,19 +1,24 @@
 <html>
   <head>
+    <title>Source Map Wasm Bench</title>
     <script src="out/bench.js"></script>
     <script src="bench-browser.js"></script>
+    <style>body { font-family: sans-serif; }</style>
   </head>
   <body>
+    <h1>Source Map Wasm Bench</h1>
     <div>
       <select id="factoryType">
-        <option value="js">js</option>
         <option value="wasm">wasm</option>
+        <option value="js">js</option>
       </select>
 
       <select id="delegateType">
-        <option value="count">count</option>
         <option value="mapping">mapping</option>
+        <option value="count">count</option>
       </select>
+
+      <input id="iterations" type="text" value="50">
 
       <button id="runButton">Run</button>
     </div>
