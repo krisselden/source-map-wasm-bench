@@ -1,9 +1,13 @@
 WebAssembly Source Map Decoder Bench
 ====================================
 
+https://krisselden.github.io/source-map-wasm-bench/
+
 Benchmark comparable WASM vs JS code stressing import calling into JS from WASM.
 
 Runs in d8, node, and the browser.
+
+If you have trouble building you can get a build from https://github.com/krisselden/source-map-wasm-bench/tree/gh-pages
 
 ## Building
 
