@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <script src="out/bench.js"></script>
+    <script src="bench-browser.js"></script>
+  </head>
+  <body>
+    <div>
+      <select id="factoryType">
+        <option value="js">js</option>
+        <option value="wasm">wasm</option>
+      </select>
+
+      <select id="delegateType">
+        <option value="count">count</option>
+        <option value="mapping">mapping</option>
+      </select>
+
+      <button id="runButton">Run</button>
+    </div>
+    <pre id="out"></pre>
+  </body>
+</html>
